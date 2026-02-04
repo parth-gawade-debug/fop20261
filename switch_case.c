@@ -1,0 +1,37 @@
+// write a menu driven program to implement basic arithematic operations.
+
+#include <stdio.h>
+int main() {
+    float num1;
+    float num2;
+    int ch;
+
+    printf("-------menu-------\n");
+    printf("press 1 for addition\n");
+    printf("press 2 for subtraction\n");
+    printf("press 3 for multiplication\n");
+    printf("press 4 for division\n");
+    printf("enter your preference:");
+
+    scanf("%f",&num1);
+    scanf("%f",&num2);
+    scanf("%d",&ch);
+
+    switch(ch) {
+        case 1:
+        printf("addition:%.2f\n",num1+num2);
+        break;
+        case 2:
+        printf("subtraction%.2f\n",num1-num2);
+        break;
+        case 3: 
+        printf("multiplication%.2f\n",num1*num2);
+        break;
+        case 4:
+        printf("division%.2f\n",num1/num2);
+        break;
+        default:
+        printf("wrong input");
+    }
+    return 0;
+}
