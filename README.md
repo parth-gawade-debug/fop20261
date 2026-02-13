@@ -1,3 +1,3 @@
 # fop20261
-# This is my repo for my daily classwork.
+# This repo is for my daily classwork.
 
