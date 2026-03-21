@@ -1,6 +1,7 @@
 // in this program i found the length of any string  without using  strlen() function.
 #include <stdio.h>
 int main() {
+    const char word[] = "Hello, World!";
     int string_length(const char string[]) 
     {
         int length = 0;
